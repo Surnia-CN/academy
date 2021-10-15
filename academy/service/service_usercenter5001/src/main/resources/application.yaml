@@ -1,0 +1,49 @@
+server:
+  port: 5001
+
+
+spring:
+  application:
+    name: service-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 999333
+  mail:
+    host: smtp-mail.outlook.com
+    port: 587
+    username: surnia_CN@outlook.com
+    password: surnia95588
+    default-encoding: utf-8
+    # 既然设置为false，可不可以不要？
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: false
+          starttls:
+            required: true
+
+  redis:
+    host: 8.129.21.241
+    port: 9376
+    database: 0
+
+
+
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
+mybatis-plus:
+  mapper-locations: classpath:com/Surnia/userservice/mapper/xml/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

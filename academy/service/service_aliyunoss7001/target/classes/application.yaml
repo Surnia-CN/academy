@@ -1,0 +1,17 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: service-aliyunoss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+aliyunoss:
+  client:
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    accessKeyId: LTAI5tGfvrVpi5PGPkSBz7r6
+    accessKeySecret: uctVKNUBh2G3lUeT6YQPcoOqmFDcYR
+    bucketName: guli-bucket-1024

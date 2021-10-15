@@ -1,0 +1,33 @@
+server:
+  port: 6001
+
+
+spring:
+  application:
+    name: service-cms
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 999333
+
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  redis:
+    host: 8.129.21.241
+    port: 9376
+    database: 0
+
+
+mybatis-plus:
+  mapper-locations: classpath:com/Surnia/cmsservice/mapper/xml/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

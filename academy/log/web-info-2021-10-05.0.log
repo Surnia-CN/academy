@@ -1,0 +1,68 @@
+2021-10-05 16:07:55.186 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-10-05 16:07:55.651 [main] INFO  com.Surnia.eduService.ServiceEduMain8001 - No active profile set, falling back to default profiles: default
+2021-10-05 16:07:56.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-05 16:07:56.668 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-05 16:07:56.693 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2021-10-05 16:07:56.887 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ec86cfc4-7260-3941-b6aa-a7a0913fab12
+2021-10-05 16:07:57.032 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.Surnia.commons.config.RedisConfig$$EnhancerBySpringCGLIB$$9252cd84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-05 16:07:57.274 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-10-05 16:07:57.282 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-10-05 16:07:57.282 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-05 16:07:57.282 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-10-05 16:07:57.404 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-05 16:07:57.405 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1733 ms
+2021-10-05 16:07:57.730 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-10-05 16:07:58.133 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-10-05 16:08:00.086 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-05 16:08:00.247 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-05 16:08:00.271 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-05 16:08:00.278 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-05 16:08:00.574 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-05 16:08:00.774 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-10-05 16:08:01.561 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-10-05 16:08:01.585 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-10-05 16:08:01.670 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.1.103:8001 register finished
+2021-10-05 16:08:01.729 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-10-05 16:08:01.743 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-10-05 16:08:01.777 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-10-05 16:08:02.004 [main] INFO  com.Surnia.eduService.ServiceEduMain8001 - Started ServiceEduMain8001 in 7.96 seconds (JVM running for 9.102)
+2021-10-05 16:09:38.998 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-05 16:09:38.999 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-10-05 16:09:39.007 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-10-05 16:49:47.355 [http-nio-8001-exec-1] INFO  com.Surnia.commons.handler.MyMetaObjectHandler - start update fill ....
+2021-10-05 16:49:47.356 [http-nio-8001-exec-1] INFO  com.Surnia.commons.handler.MyMetaObjectHandler - update gmtModified fill ....value:Tue Oct 05 16:49:47 CST 2021
+2021-10-05 16:50:42.027 [http-nio-8001-exec-8] INFO  com.Surnia.commons.handler.MyMetaObjectHandler - start update fill ....
+2021-10-05 16:50:42.028 [http-nio-8001-exec-8] INFO  com.Surnia.commons.handler.MyMetaObjectHandler - update gmtModified fill ....value:Tue Oct 05 16:50:42 CST 2021
+2021-10-05 16:50:54.215 [http-nio-8001-exec-1] INFO  com.Surnia.commons.handler.MyMetaObjectHandler - start update fill ....
+2021-10-05 16:50:54.215 [http-nio-8001-exec-1] INFO  com.Surnia.commons.handler.MyMetaObjectHandler - update gmtModified fill ....value:Tue Oct 05 16:50:54 CST 2021
+2021-10-05 17:25:58.142 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-10-05 17:25:58.689 [main] INFO  com.Surnia.eduService.ServiceEduMain8001 - No active profile set, falling back to default profiles: default
+2021-10-05 17:25:59.730 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-05 17:25:59.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-05 17:25:59.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2021-10-05 17:25:59.972 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ec86cfc4-7260-3941-b6aa-a7a0913fab12
+2021-10-05 17:26:00.117 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.Surnia.commons.config.RedisConfig$$EnhancerBySpringCGLIB$$aaea633c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-05 17:26:00.599 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-10-05 17:26:00.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-10-05 17:26:00.608 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-05 17:26:00.608 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-10-05 17:26:00.724 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-05 17:26:00.724 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2016 ms
+2021-10-05 17:26:00.992 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-10-05 17:26:01.242 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-10-05 17:26:02.455 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-05 17:26:02.571 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-05 17:26:02.607 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-05 17:26:02.611 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-05 17:26:02.750 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-05 17:26:02.840 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2021-10-05 17:26:03.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-10-05 17:26:03.192 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-10-05 17:26:03.263 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.1.103:8001 register finished
+2021-10-05 17:26:03.313 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-10-05 17:26:03.324 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-10-05 17:26:03.365 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-10-05 17:26:03.575 [main] INFO  com.Surnia.eduService.ServiceEduMain8001 - Started ServiceEduMain8001 in 6.278 seconds (JVM running for 7.61)
+2021-10-05 17:26:05.581 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-05 17:26:05.582 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-10-05 17:26:05.588 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms

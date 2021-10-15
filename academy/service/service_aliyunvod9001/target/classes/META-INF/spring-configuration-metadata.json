@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "aliyunvod.client",
+      "type": "com.Surnia.vodService.utils.VodUtils",
+      "sourceType": "com.Surnia.vodService.utils.VodUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyunvod.client.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.vodService.utils.VodUtils"
+    },
+    {
+      "name": "aliyunvod.client.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.vodService.utils.VodUtils"
+    },
+    {
+      "name": "aliyunvod.client.v-o-d-a-c-c-e-s-s-k-e-y-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.vodService.utils.VodUtils"
+    },
+    {
+      "name": "aliyunvod.client.v-o-d-a-c-c-e-s-s-k-e-y-s-e-c-r-e-t",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.vodService.utils.VodUtils"
+    }
+  ],
+  "hints": []
+}

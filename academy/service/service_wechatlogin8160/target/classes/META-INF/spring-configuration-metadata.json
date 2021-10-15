@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "wechat",
+      "type": "com.Surnia.wechatLoginService.Utils.WechatUtils",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wechat.appid",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    },
+    {
+      "name": "wechat.appsecret",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    },
+    {
+      "name": "wechat.redirecturl",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    },
+    {
+      "name": "wechat.w-e-c-h-a-t-a-p-p-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    },
+    {
+      "name": "wechat.w-e-c-h-a-t-a-p-p-s-e-c-r-e-t",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    },
+    {
+      "name": "wechat.w-e-c-h-a-t-r-e-d-i-r-e-c-t-u-r-l",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.wechatLoginService.Utils.WechatUtils"
+    }
+  ],
+  "hints": []
+}

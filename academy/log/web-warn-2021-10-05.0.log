@@ -1,0 +1,10 @@
+2021-10-05 16:07:56.759 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-05 16:07:57.500 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2021-10-05 16:07:58.887 [main] WARN  o.s.cloud.openfeign.FeignClientFactoryBean - The provided URL is empty. Will try picking an instance via load-balancing.
+2021-10-05 16:08:00.270 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-10-05 16:08:00.276 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-10-05 17:25:59.815 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-10-05 17:26:00.811 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2021-10-05 17:26:01.784 [main] WARN  o.s.cloud.openfeign.FeignClientFactoryBean - The provided URL is empty. Will try picking an instance via load-balancing.
+2021-10-05 17:26:02.607 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-10-05 17:26:02.611 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

@@ -1,0 +1,21 @@
+server:
+  port: 8160
+
+
+spring:
+  application:
+    name: service-wechat-login
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  redis:
+    host: 8.129.21.241
+    port: 9376
+    database: 0
+
+# 尚硅谷提供的微信二维码登录资料
+wechat:
+  appid: wxed9954c01bb89b47
+  appsecret: a7482517235173ddb4083788de60b90e
+  redirecturl: http://localhost:8160/api/ucenter/wx/callback

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commons_api" />
+        <module name="service_cms6001" />
+        <module name="service_article6100" />
+        <module name="service_edu8001" />
+        <module name="service_aliyunvod9001" />
+        <module name="service_wechatlogin8160" />
+        <module name="service_aliyunoss7001" />
+        <module name="service_usercenter5001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="academy" target="11" />
+      <module name="commons_api" target="11" />
+      <module name="service" target="11" />
+      <module name="service-edu" target="11" />
+      <module name="service_aliyunoss7001" target="11" />
+      <module name="service_aliyunvod9001" target="11" />
+      <module name="service_article6100" target="11" />
+      <module name="service_cms6001" target="11" />
+      <module name="service_edu8001" target="11" />
+      <module name="service_edu8002" target="11" />
+      <module name="service_usercenter5001" target="11" />
+      <module name="service_wechatlogin8160" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="academy" options="-parameters" />
+      <module name="commons_api" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-edu" options="-parameters" />
+      <module name="service_aliyunoss7001" options="-parameters" />
+      <module name="service_aliyunvod9001" options="-parameters" />
+      <module name="service_article6100" options="-parameters" />
+      <module name="service_cms6001" options="-parameters" />
+      <module name="service_edu8001" options="-parameters" />
+      <module name="service_edu8002" options="-parameters" />
+      <module name="service_usercenter5001" options="-parameters" />
+      <module name="service_wechatlogin8160" options="-parameters" />
+    </option>
+  </component>
+</project>

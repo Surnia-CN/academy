@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "aliyunoss.client",
+      "type": "com.Surnia.ossService.utils.OssUtils",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyunoss.client.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.o-s-s-a-c-c-e-s-s-k-e-y-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.o-s-s-a-c-c-e-s-s-k-e-y-s-e-c-r-e-t",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.o-s-s-b-u-c-k-e-t-n-a-m-e",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    },
+    {
+      "name": "aliyunoss.client.o-s-s-e-n-d-p-o-i-n-t",
+      "type": "java.lang.String",
+      "sourceType": "com.Surnia.ossService.utils.OssUtils"
+    }
+  ],
+  "hints": []
+}
